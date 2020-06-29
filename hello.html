@@ -2,8 +2,113 @@
 <html>
     <head>
         <title>My Webpage!</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+          h3{
+            color:red;
+            text-align: right;
+          }
+          div{
+            background-color: teal;
+            width:300px;
+            height:200px;
+            margin:30px;
+            padding: 90px;
+            font-family: arial ,sans-serif;
+            font-size: 30px;
+            font weight: bold;
+            border: 3px dotted red;
+          }
+          table
+          {
+            border: 3px solid black;
+            border-collapse: collapse;
+            width: 50%;
+          }
+          th{
+            border: 1px solid black;
+            background-color: lightgrey;
+            padding: 5px;
+            text-align: center;
+
+            }
+          td{
+              border: 1px solid black;
+              padding: 5px;
+              text-align: center;
+            }
+            #top
+            {
+              font-size: 36px;
+            }
+            #middle{
+              font-size: 24px;
+            }
+            #bottom{
+              font-size: 12px;
+            }
+            .name{
+              font-weight: bold;
+            }
+        </style>
     </head>
     <body>
       Hello World!
+        <h1>This is the largest head line</h1>
+        <h2>this is also a large head line</h2>
+        <h3>This is slightly smaller headlline</h3>
+        <h4>This is an even smaller headline</h4>
+        <h5>This is the secod smallest headline</h5>
+        <h6>This is the smallest headline</h6>
+            <h4>an un orderd list</h4>
+            <ul>
+              <li>first item</li>
+              <li>second one</li>
+              <li>third one</li>
+            </ul>
+            <h4>ordered list</h4>
+            <ol>
+              <li>first item</li>
+              <li>second one</li>
+              <li>third one</li>
+            </ol>
+            <h4> image insertion</h4>
+              <img src="image.jpg" height="50%" width="30%">
+            <h4> table insertion</h4>
+              <table>
+                <tr>
+                  <th> rajendra prasad </th>
+                  <th> sarvepalli radhakrishnan</th>
+                </tr>
+                <tr>
+                  <td>1950-1962</td>
+                  <td>1962-1967</td>
+                </tr>
+                <tr>
+                  <td>-----</td>
+                  <td>-----</td>
+                </tr>
+              </table>
+              <h4> form insertion</h4>
+                <form>
+                  <input type="text" placeholder="FULL NAME" name="NAME">
+                  <button>KYA KAREGA DABA KAR</button>
+                </form>
+              <h2>using css tools</h2>
+              <h1 style="color:royalblue;text-align:center;"> GONNA SEE SOME CSS TOOLS</h1>
+              <h3>Here is a second headline</h3>
+              <div>
+                heloo man
+                jst trying div command
+              </div>
+              <div id="top">
+                this is the <span class="name">top</span> of my Webpage
+              </div>
+              <div id="middle">
+                this is the <span class="name">middle</span> of my Webpage
+              </div>
+              <div id="bottom">
+                this is the <span class="name">bottom</span> of my Webpage
+              </div>
     </body>
 </html>
